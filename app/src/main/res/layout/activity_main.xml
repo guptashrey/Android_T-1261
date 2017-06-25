@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="net.shreygupta.t_1261.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:src="@drawable/res" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email or Phone"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#8C9BBF"
+        android:background="#3E5391"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#3351A3"
+        android:textStyle="bold"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="CREATE NEW FACEBOOK ACCOUNT"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#38AD20"/>
+
+</LinearLayout>
